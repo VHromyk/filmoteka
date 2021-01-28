@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Filmoteka</title>
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
@@ -16,6 +22,32 @@
         <!-- разметка для фильмов которые в тренде для главной страницы -->
         <ul class="trend-movie"></ul>
       </div>
+
+      <nav class="container" aria-label="Search results pages">
+        <ul id="paginationId" class="pagination justify-content-center">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" aria-label="Previous">&#129128
+              <!-- <span aria-hidden="true"><span class="text-dark">&#129128</span></span> -->
+            </a>
+          </li>
+          <li class="page-item current" aria-current="page">
+            <a class="page-link" href="#" ><span data-index="1" class="link-dark">1</span></a>
+          </li>
+          <li class="page-item"  ><a class="page-link" href="#" ><span data-index="2" class="link-dark">2</span></a></li>
+          <li class="page-item" ><a class="page-link" href="#"><span  data-index="3" class="link-dark">3</span></a></li>
+          <li class="page-item" ><a class="page-link" href="#"><span data-index="4" class="link-dark">4</span></a></li>
+          <li class="page-item" ><a class="page-link" href="#"><span data-index="5" class="link-dark">5</span></a></li>
+          <li class="page-item" ><a class="page-link" href="#"><span data-index="6" class="link-dark">6</span></a></li>
+          <li class="page-item" ><a class="page-link" href="#"><span data-index="7" class="link-dark">7</span></a></li>
+          <li class="page-item" ><a class="page-link" href="#"><span data-index="8" class="link-dark">8</span></a></li>
+          <li class="page-item" ><a class="page-link" href="#"><span data-index="9" class="link-dark">9</span></a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">&#129130
+              <!-- <span aria-hidden="true"><span class="text-dark">&#129130</span></span> -->
+            </a>
+          </li>
+        </ul>
+      </nav>
     </main>
     <footer>
       <div class="container">
@@ -32,6 +64,5 @@
     <div class="container">
       <div class="movie-modal"></div>
     </div>
-
   </body>
 </html>

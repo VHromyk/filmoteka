@@ -1,0 +1,21 @@
+#paginationId .page-item .page-link {
+    border: none;
+  }
+
+#paginationId .page-item.active .page-link {
+    background-color: $accent-color;
+    border-radius: 5px;
+}
+
+#paginationId .page-item.active .page-link .link-dark {
+    color: $text-dark-theme-color
+}
+
+#paginationId .page-item.active .page-link {
+    color: $text-dark-theme-color
+}
+
+#paginationId .page-item .page-link {
+    text-decoration: none;
+    color: black
+}
