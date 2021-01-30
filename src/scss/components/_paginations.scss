@@ -1,4 +1,3 @@
-// ============ Bootstrap ===================
 #paginationId .page-item .page-link {
     border: none;
   }
@@ -20,19 +19,3 @@
     text-decoration: none;
     color: black
 }
-
-
-// ============ Tui-pagination ===================
-
-  strong.tui-page-btn.tui-is-selected{
-    background: $accent-color;
-    border: none;
-  }
-  strong.tui-page-btn.tui-is-selected a{
-    border: none;
-  }
-  strong.tui-page-btn.tui-is-selected:hover{
-    background: $accent-color;
-      // border-color: $accent-color;
-  }
- 
