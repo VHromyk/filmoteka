@@ -13,8 +13,6 @@ showMemebers.addEventListener("click", footerModalHandler);
 function footerModalHandler(event) {
     event.preventDefault();
 
-    console.log('open!');
-
     const footerModal = document.querySelector('.footer-modal');
     footerModal.classList.remove('is_hidden');
     refs.body.classList.add('modal-overflow')
